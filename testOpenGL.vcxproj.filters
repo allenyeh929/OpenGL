@@ -16,6 +16,9 @@
     <Filter Include="資源檔\Shaders">
       <UniqueIdentifier>{2984637a-c2b4-454e-a28b-52dc28f68ff6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="資源檔\Textures">
+      <UniqueIdentifier>{107fbc74-fa12-4ca7-84c7-22eac520a3e1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="glad.c">
@@ -34,6 +37,9 @@
       <Filter>來源檔案</Filter>
     </ClCompile>
     <ClCompile Include="VAO.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="stb.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
   </ItemGroup>
@@ -58,5 +64,10 @@
     <ClInclude Include="VAO.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\Users\allenice\Pictures\wall.jpg">
+      <Filter>資源檔\Textures</Filter>
+    </Image>
   </ItemGroup>
 </Project>
