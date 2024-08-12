@@ -84,10 +84,13 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="..\..\Users\allenice\Pictures\wall.jpg">
+    <Image Include="brick.png">
       <Filter>資源檔\Textures</Filter>
     </Image>
-    <Image Include="brick.png">
+    <Image Include="planksSpec.png">
+      <Filter>資源檔\Textures</Filter>
+    </Image>
+    <Image Include="planks.png">
       <Filter>資源檔\Textures</Filter>
     </Image>
   </ItemGroup>
