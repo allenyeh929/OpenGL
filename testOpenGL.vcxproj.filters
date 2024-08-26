@@ -48,6 +48,9 @@
     <ClCompile Include="Camera.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="default.vert">
@@ -80,6 +83,9 @@
       <Filter>標頭檔</Filter>
     </ClInclude>
     <ClInclude Include="Camera.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
   </ItemGroup>
