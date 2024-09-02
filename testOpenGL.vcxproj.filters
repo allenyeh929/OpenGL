@@ -51,18 +51,15 @@
     <ClCompile Include="Mesh.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="default.vert">
       <Filter>資源檔\Shaders</Filter>
     </None>
     <None Include="default.frag">
-      <Filter>資源檔\Shaders</Filter>
-    </None>
-    <None Include="light.frag">
-      <Filter>資源檔\Shaders</Filter>
-    </None>
-    <None Include="light.vert">
       <Filter>資源檔\Shaders</Filter>
     </None>
   </ItemGroup>
@@ -86,6 +83,9 @@
       <Filter>標頭檔</Filter>
     </ClInclude>
     <ClInclude Include="Mesh.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
   </ItemGroup>
